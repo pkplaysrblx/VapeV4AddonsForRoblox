@@ -206,7 +206,7 @@ StarterGui:SetCore("SendNotification", {
             Text = "The loadstring has been copied to the clipboard.", -- The content/text of the notification
             Duration = 5 -- Duration in seconds
             })
-
+            setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/pkplaysrblx/VapeV4ForRoblox/refs/heads/main/NewMainScript.lua'))()")
 
         end
     end
