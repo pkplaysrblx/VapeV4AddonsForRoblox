@@ -24,19 +24,19 @@ local EntityNotifier = LIB("World", {
             local CollectionService = game:GetService("CollectionService")
 
                 CollectionService:GetInstanceAddedSignal("GolemBoss"):Connect(function()
-                    warningNotification("pkvxpe", "Entity: GolemBoss has spawned.", 5) 
+                    infonotify("pkvxpe", "Entity: GolemBoss has spawned.", 5) 
                 end)
                 
                 CollectionService:GetInstanceAddedSignal("DiamondGuardian"):Connect(function()
-                    warningNotification("pkvxpe", "Entity: Diamond Guardian has spawned.", 5)
+                    infonotify("pkvxpe", "Entity: Diamond Guardian has spawned.", 5)
                 end)
                 
                 CollectionService:GetInstanceAddedSignal("Monster"):Connect(function()
-                    warningNotification("pkvxpe", "Entity: Monster has spawned.", 5)
+                    infonotify("pkvxpe", "Entity: Monster has spawned.", 5)
                 end)
 
                 CollectionService:GetInstanceAddedSignal("GuardianOfDream"):Connect(function()
-                    warningNotification("pkvxpe", "Entity: Guardian of Dream has spawned.", 5)
+                    infonotify("pkvxpe", "Entity: Guardian of Dream has spawned.", 5)
                 end)
             end
         end
